@@ -61,6 +61,9 @@ The **Cleveland dataset** is a subset of the **Heart Disease UCI dataset**, wide
 - **Recall**: Ability to detect actual positive cases.
 - **F1-Score**: Harmonic mean of precision and recall for balanced evaluation.
 
+
+- ![heatmap.png](heatmap.png)
+
 ### **Results Summary**
 | Model | Accuracy | Precision | Recall | F1-Score |
 |--------|----------|------------|--------|----------|
@@ -72,12 +75,19 @@ The **Cleveland dataset** is a subset of the **Heart Disease UCI dataset**, wide
 | Support Vector Classifier | 0.48 | 0.90 | 0.20 | 0.13 |
 | K-Nearest Neighbors | 0.44 | 0.31 | 0.19 | 0.14 |
 
+
+
 ---
 
 ## **Visualizations**
 - **Heatmaps**:
     - **Decision Tree Grid Search Scores** – Visualized hyperparameter performance.
     - **SVC Grid Search Scores** – Identified optimal hyperparameter combinations.
+
+![decision_tree_grid.png](decision_tree_grid.png)
+
+
+![vector_classifier.png](vector_classifier.png)
 
 ---
 
