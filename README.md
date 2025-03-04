@@ -44,7 +44,26 @@
     - **Decision Tree Grid Search Scores**: Visualized the performance of different hyperparameter combinations.
     - **Support Vector Classifier Grid Search Scores**: Highlighted the best performing hyperparameter combination.
 
+#### Interpretation of Results
+- **Logistic Regression**: Shows moderate accuracy and precision, indicating it can correctly identify heart disease in about 57% of cases. However, the recall is lower, suggesting it misses a significant number of actual heart disease cases.
+- **Decision Tree**: Provides a balance between precision and recall, but overall accuracy is slightly lower than Logistic Regression. This model might be overfitting to the training data.
+- **Random Forest**: Offers a good trade-off between precision and recall, but the overall performance is not significantly better than simpler models.
+- **Gradient Boosting**: Shows lower accuracy and precision, indicating it may not be the best choice for this dataset.
+- **Bagging**: Provides a balanced performance with decent accuracy and precision, making it a reliable choice.
+- **Support Vector Classifier**: High precision but very low recall, meaning it correctly identifies heart disease cases but misses many actual cases.
+- **K-Nearest Neighbors**: Lowest performance among all models, indicating it may not be suitable for this dataset.
+
 #### Conclusion
 - **Model Performance**: Logistic Regression and Decision Tree models showed relatively better performance in terms of accuracy and precision.
 - **Challenges**: Handling imbalanced data and optimizing hyperparameters for complex models.
 - **Future Work**: Explore advanced techniques like deep learning, feature selection, and ensemble methods to improve prediction accuracy.
+
+#### Insights from the Data
+- **Age and Heart Disease**: Older age groups show a higher prevalence of heart disease.
+- **Cholesterol Levels**: Higher cholesterol levels are associated with an increased risk of heart disease.
+- **Chest Pain Type**: Certain types of chest pain are strong indicators of heart disease.
+- **Resting Blood Pressure**: Elevated resting blood pressure is a significant risk factor.
+- **Maximum Heart Rate Achieved**: Lower maximum heart rates are associated with higher risk.
+- **Exercise-Induced Angina**: Presence of exercise-induced angina is a strong indicator of heart disease.
+
+These insights can help in understanding the key risk factors and improving early diagnosis and treatment strategies for heart disease.
