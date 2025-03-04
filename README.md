@@ -9,7 +9,7 @@
 - **Significance**: Early detection allows timely medical intervention, potentially saving lives and reducing healthcare costs.
 
 ### **Cleveland Dataset Synopsis**
-The **Cleveland dataset** is a subset of the **Heart Disease UCI dataset**, widely used in machine learning and medical research to predict heart disease. It contains **303 patient records** with **14 attributes**, including demographic information, medical measurements, and diagnostic results.
+The **[Cleveland dataset](https://archive.ics.uci.edu/dataset/45/heart+disease)** is a subset of the **Heart Disease UCI dataset**, widely used in machine learning and medical research to predict heart disease. It contains **303 patient records** with **14 attributes**, including demographic information, medical measurements, and diagnostic results.
 
 #### **Key Attributes:**
 - **Demographic Factors**: Age, sex
